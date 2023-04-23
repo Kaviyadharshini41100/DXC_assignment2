@@ -12,7 +12,7 @@
                 Console.WriteLine("Enter the gap between the robbers:");
                 int G = Convert.ToInt32(Console.ReadLine());
                 int m = j; //m=current robber
-                int n = 1; //n=Shoots completed
+                int n = 0; //n=Shoots completed
                 while (i > 0)
                 {
                     Console.WriteLine("Target = " + m + ", " + n + " shots completed");
